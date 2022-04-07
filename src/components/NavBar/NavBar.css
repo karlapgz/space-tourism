@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #000;
+    background-color: #fff;
+    padding: 0 0.4rem;
+    border-radius: 50%;
+}
+
+.line {
+    width: 25rem;
+    height: 1px;
+    background-color: #979797;
+    margin-left: 5rem;
+}
+
+li {
+    display: flex;
+    color: #fff;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    backdrop-filter: blur(1.5rem);
+    padding: 2rem 2rem;
+}
+
+.menu li {
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    margin-right: 4rem;
+}
+
+.number {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.link {
+    text-decoration: none;
+}

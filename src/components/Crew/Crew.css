@@ -1,0 +1,74 @@
+body .crew {
+    background-image: url(../../img/crew/background-crew-desktop.jpg);
+    height: 100vh;
+}
+
+.main-crew {
+    padding: 0 10rem;
+    height: 100vh;
+}
+
+.meet-crew-title {
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+}
+
+.meet-crew-title span {
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.info-crew {
+    display: flex;
+    font-family: 'Bellefair', serif;
+    align-items: center;
+}
+
+.info-crew h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.info-crew h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.info-crew p {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    width:55%;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.buttons {
+    margin-top: 3rem;
+}
+ 
+.btn-crew {
+    color: #fff;
+    background-color: #fff;
+    border: none;
+    margin-right: 1rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.figure-crew {
+    margin-right: 10rem;
+    align-self: flex-end;
+}
+
+.image-crew {
+    width: 135%;
+}

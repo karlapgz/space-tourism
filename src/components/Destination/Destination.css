@@ -1,0 +1,91 @@
+body .destination {
+    background-image: url(../../img/destination/background-destination-desktop.jpg);
+    height: 100vh;
+}
+ 
+.main-destination {
+    padding: 0rem 10rem;
+}
+
+.pick-destination {
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+
+
+span {
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.planet-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 4rem;
+}
+
+.planet-info {
+    margin-left: 9rem;
+}
+
+.planet-img {
+    width: 400px;
+}
+
+.btn-destination {
+    background-color: transparent;
+    border: none;
+    padding: 0 0 0.5rem 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border-bottom: 2px solid #fff;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 2rem;
+}
+
+.planet-paragraph {
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+}
+
+.line-divide {
+    width: 400px;
+    margin-top: 2rem;
+    padding: 1px;
+    background-color: #fff;
+}
+
+.distance-travel-info {
+    display: flex;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.info span {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    margin-right: 5rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.info p {
+    font-family: 'Bellefair', serif;
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+}
